@@ -1,0 +1,28 @@
+body {
+  background-color: #0f0e17;
+}
+
+.section {
+  background-color: lightblue;
+  padding: 200px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  padding: 100px;
+  background-color: pink;
+}
+
+.right {
+  width: 50%;
+  padding: 100px;
+  background-color: lightgreen;
+
+}
+
+img {
+  width: 300px;
+}
