@@ -9,7 +9,7 @@ body {
   font-family: sans-serif;
 }
 
-.container {
+.content {
   background-color: #03000a;
   padding: 200px;
   margin-top: 150px;
@@ -17,7 +17,7 @@ body {
   display: flex;
 }
 
-.container > * {
+.content > * {
     flex-basis: 100%;
 }
 
@@ -39,16 +39,24 @@ img {
   color: #8e5bfc;
 }
 
-h3 {
+h1 {
   border: 1px solid red;
 }
 
 p {
   border: 1px solid blue;
+  font-size: 10px;
+  color: darkgray;
+}
+
+.left > p {
+  margin: 25px 0;
 }
 
 .footer {
   border: 1px solid pink;
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer-item {
